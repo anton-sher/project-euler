@@ -22,7 +22,6 @@ class TestDivide < MiniTest::Unit::TestCase
 	end
 
 	def test_divide_7
-		skip "divide by 7"
 		assert_equal "0.(142857)", divide(1,7)
 	end
 
