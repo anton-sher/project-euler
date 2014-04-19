@@ -18,7 +18,6 @@ class TestDivide < MiniTest::Unit::TestCase
 	end
 
 	def test_divide_6
-		skip "divide by 6"
 		assert_equal "0.1(6)", divide(1,6)
 	end
 
@@ -32,7 +31,6 @@ class TestDivide < MiniTest::Unit::TestCase
 	end
 
 	def test_divide_9
-		skip "divide by 9"
 		assert_equal "0.(1)", divide(1,9)
 	end
 
