@@ -8,3 +8,11 @@ def sum_proper_divisors(n)
 	s += i if i * i == n
 	return s
 end
+
+def is_prime(n)
+	return false if n <= 1
+	for d in (2..(Math.sqrt(n).to_i)) do
+		return false if n % d == 0
+	end
+	return true
+end
