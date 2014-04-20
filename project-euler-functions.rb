@@ -23,3 +23,8 @@ def gcd (a, b)
 	return b if r == 0
 	return gcd(b, r)
 end
+
+def factorial n
+	return 1 if n == 0
+	return (1..n).reduce(:*)
+end
