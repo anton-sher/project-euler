@@ -16,3 +16,10 @@ def is_prime(n)
 	end
 	return true
 end
+
+def gcd (a, b)
+	return gcd(b, a) if a < b
+	r = a % b
+	return b if r == 0
+	return gcd(b, r)
+end
