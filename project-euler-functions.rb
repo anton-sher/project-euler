@@ -30,5 +30,6 @@ def factorial n
 end
 
 def number_of_digits n
+	return 1 if n == 0
 	return Math.log(n, 10).to_i + 1
 end
