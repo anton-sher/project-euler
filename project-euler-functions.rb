@@ -28,3 +28,7 @@ def factorial n
 	return 1 if n == 0
 	return (1..n).reduce(:*)
 end
+
+def number_of_digits n
+	return Math.log(n, 10).to_i + 1
+end
