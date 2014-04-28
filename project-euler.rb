@@ -38,8 +38,16 @@ def is_pandigital_to n, d
 	n.to_s.split(//).map(&:to_i).sort == (t = *(1..d))
 end
 
+def is_pandigital_0_to n, d
+	n.to_s.split(//).map(&:to_i).sort == (t = *(0..d))
+end
+
 def is_pandigital n
 	is_pandigital_to(n, number_of_digits(n))
+end
+
+def is_pandigital_0 n
+	is_pandigital_0_to(n, number_of_digits(n) - 1)
 end
 
 def non_inc_tail list
