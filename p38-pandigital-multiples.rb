@@ -1,5 +1,5 @@
 require './p32-pandigital.rb'
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 pandigitals = []
 for n in 1..9999 do

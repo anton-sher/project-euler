@@ -1,4 +1,4 @@
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 def primes_count (a, b)
 	n = 0

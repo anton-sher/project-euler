@@ -1,5 +1,5 @@
 require 'set'
-require "./project-euler-functions.rb"
+require "./project-euler.rb"
 
 def is_abundant n
 	return n < sum_proper_divisors(n)

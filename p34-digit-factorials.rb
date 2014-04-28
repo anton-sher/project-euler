@@ -1,4 +1,4 @@
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 $fac = (0..9).map{|i| factorial(i)}.to_a
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 result = []
 

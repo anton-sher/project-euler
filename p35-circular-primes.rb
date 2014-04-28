@@ -1,4 +1,4 @@
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 def circulate n
 	s = n.to_s

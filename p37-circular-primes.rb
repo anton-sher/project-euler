@@ -1,4 +1,4 @@
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 def is_truncatable_prime(n)
 	l = n

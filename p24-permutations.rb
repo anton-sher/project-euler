@@ -1,4 +1,4 @@
-require './project-euler-functions.rb'
+require './project-euler.rb'
 
 def gen_permutations_fast n
 	list = []

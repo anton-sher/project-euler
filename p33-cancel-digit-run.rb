@@ -1,5 +1,5 @@
 require './p33-cancel-digit.rb'
-require './project-euler-functions.rb'
+require './project-euler.rb'
 require 'set'
 
 cancelable = Set.new
